@@ -3,7 +3,7 @@ import requests
 import os
 from dotenv import load_dotenv
 
-BACKEND_URL = "http://127.0.0.1:8000/"
+BACKEND_URL = "https://chatbot-streamlit-zcaa.onrender.com"
 
 def main():
     st.set_page_config(page_title="Chat with multiple PDFs", page_icon=":books:")
